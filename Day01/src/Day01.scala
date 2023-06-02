@@ -17,7 +17,7 @@ object Day01 extends App {
     max
   }
 
-  println(Part1)
+  println(Part1())
 
   private def Part2(): Int = {
     var totals: List[Int] = Nil
@@ -34,6 +34,6 @@ object Day01 extends App {
     totals.sorted(Ordering[Int].reverse).take(3).sum
   }
 
-  println(Part2)
+  println(Part2())
 
 }
